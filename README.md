@@ -10,7 +10,7 @@ What I needed:
 <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/58b26733-b11c-4288-908a-e692ecc9ece4" />
 <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/2d5b90bb-41b1-4d6e-8510-a4719e1f1baa" />
 
-Opening **Krita 258 times** to crop them by hand was out of the question, so I automated the task using **PowerShell**.
+Opening Krita hundreds of times to crop them by hand was out of the question, so I automated the task using **PowerShell**.
 
 ---
 
@@ -20,9 +20,9 @@ This script loads all `.png` images in a given folder, makes a copy, crops it to
 
 ---
 
-## Step 1 (Optional) — Enable Temporary Script Execution
+## (Optional Troubleshooting) Enable Temporary Script Execution
 
-Open Powershell ISE with administrator priveleges. If your system blocks PowerShell scripts by default, you can temporarily allow them **for this session only** by running this, and running the script in the new ISE session:
+If your system blocks PowerShell scripts by default, you can temporarily allow them **for this session only** by running this, and running the script in the new ISE session:
 
 ```powershell
 # 1) See what’s enforcing the block
@@ -31,7 +31,7 @@ Get-ExecutionPolicy -List
 # 2) Temporarily relax policy for THIS WINDOW ONLY
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
 
-# 3) Launch ISE (or PowerShell 7) from this relaxed session
+# 3) Launch ISE from this relaxed session
 powershell_ise.exe
 
 ```

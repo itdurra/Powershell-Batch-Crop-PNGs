@@ -4,8 +4,8 @@ When extracting `.unitypackage` assets for Godot (shoutout [unitypackage_extract
 I ended up with hundreds of texture files that needed manual trimming.
 
 What I purchased:
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/6c3da098-4739-4e21-97bb-84a9c4373f03" />
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/97a266e2-4b7d-4a81-aeb0-73ab4cf602f1" />
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/6c3da098-4739-4e21-97bb-84a9c4373f03" />
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/97a266e2-4b7d-4a81-aeb0-73ab4cf602f1" />
 What I needed: 
 <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/58b26733-b11c-4288-908a-e692ecc9ece4" />
 <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/2d5b90bb-41b1-4d6e-8510-a4719e1f1baa" />
@@ -40,3 +40,6 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
 
 # 3) Launch ISE (or PowerShell 7) from this relaxed session
 powershell_ise.exe
+
+```
+Run the following script: https://github.com/itdurra/Powershell-Batch-Crop-PNGs

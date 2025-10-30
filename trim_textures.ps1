@@ -1,4 +1,4 @@
-# --- settings ---
+# --- UPDATE THESE VARIABLES ---
 $srcFolder   = "***file where images are located***"   # Source folder containing PNGs
 $outFolder   = "$srcFolder\out"                        # Output folder for cropped results
 
@@ -11,10 +11,11 @@ $offsetY     = 30         # Pixels to skip from the top
 
 # --- setup ---
 New-Item -ItemType Directory -Force -Path $outFolder | Out-Null  # Ensure output folder exists
-Add-Type -AssemblyName System.Drawing  # Load .NET imaging types (Image, Bitmap, Graphics)
+Add-Type -AssemblyName System.Drawing  # Load the library to do the cropping with
 
 # --- process ---
 Get-ChildItem -Path $srcFolder -Filter *.png | ForEach-Object {
+    #create name of new file (adding _crop.png suffix)
     $in  = $_.FullName
     $out = Join-Path $outFolder ($_.BaseName + "_crop.png")
 

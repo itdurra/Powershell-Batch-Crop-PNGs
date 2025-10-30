@@ -4,11 +4,11 @@ When extracting `.unitypackage` assets for Godot (shoutout [unitypackage_extract
 I ended up with hundreds of texture files that needed manual trimming.
 
 What I purchased:
-<img width="4156" height="4156" alt="image" src="https://github.com/user-attachments/assets/6c3da098-4739-4e21-97bb-84a9c4373f03" />
-<img width="4156" height="4156" alt="image" src="https://github.com/user-attachments/assets/97a266e2-4b7d-4a81-aeb0-73ab4cf602f1" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/6c3da098-4739-4e21-97bb-84a9c4373f03" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/97a266e2-4b7d-4a81-aeb0-73ab4cf602f1" />
 What I needed: 
-<img width="1525" height="1511" alt="image" src="https://github.com/user-attachments/assets/58b26733-b11c-4288-908a-e692ecc9ece4" />
-<img width="1525" height="1511" alt="image" src="https://github.com/user-attachments/assets/2d5b90bb-41b1-4d6e-8510-a4719e1f1baa" />
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/58b26733-b11c-4288-908a-e692ecc9ece4" />
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/2d5b90bb-41b1-4d6e-8510-a4719e1f1baa" />
 
 Opening **Krita 258 times** to crop them by hand was out of the question —  
 so I automated the task using **PowerShell** and .NET’s `System.Drawing` library.
